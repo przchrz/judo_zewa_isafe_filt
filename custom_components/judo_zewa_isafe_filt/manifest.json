@@ -1,0 +1,9 @@
+{
+  "domain": "zewa_isafe",
+  "name": "ZEWA i-SAFE Leak Protection + Filter",
+  "version": "1.0.0",
+  "documentation": "https://github.com/yourname/zewa_isafe",
+  "requirements": ["aiohttp"],
+  "codeowners": ["@yourgithub"],
+  "iot_class": "local_polling"
+}
