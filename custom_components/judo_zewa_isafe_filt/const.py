@@ -1,4 +1,4 @@
-DOMAIN = "zewa_isafe"
+DOMAIN = "judo_zewa_isafe_filt"
 PLATFORMS = ["switch", "sensor", "button", "number", "select"]
 
 CONF_IP = "ip_address"
