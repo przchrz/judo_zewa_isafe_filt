@@ -1,0 +1,80 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Account is already configured"
+        },
+        "error": {
+            "cannot_connect": "Failed to connect",
+            "invalid_auth": "Invalid authentication",
+            "unknown": "Unexpected error"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "Device-Postfix": "Device postfix",
+                    "scan_interval": "API poll interval (default = 60 sec)",
+                    "host": "Host name or IP address",
+                    "port": "HTTP Port",
+                    "username": "User name",
+                    "password": "Password"
+                }
+            },
+            "reconfigure": {
+                "data": {
+                    "Device-Postfix": "Device postfix",
+                    "scan_interval": "API poll interval (default = 60 sec)",
+                    "host": "Host name or IP address",
+                    "port": "HTTP Port",
+                    "username": "User name",
+                    "password": "Password"
+                }
+            }
+        }
+    },
+    "entity": {
+        "button": {
+            "leakage_protection_close": {
+                "name": "Close leakage protection"
+            },
+            "leakage_protection_open": {
+                "name": "Open leakage protection"
+            }
+        },
+        "sensor": {
+            "device_number": {
+                "name": "Device number"
+            },
+            "software_version": {
+                "name": "Software version"
+            },
+            "day_statistics": {
+                "name": "Statistics"
+            },
+            "device_type": {
+                "name": "Device Type",
+                "state": {
+                    "zewa_prom_i_safe": "ZEWA/PROM i-SAFE (FILT)"
+                }
+            },
+            "water_total": {
+                "name": "Water total"
+            },
+            "operating_days": {
+                "name": "Operating days"
+            },
+            "operating_minutes": {
+                "name": "Operating minutes"
+            },
+            "operating_hours": {
+                "name": "Operating hours"
+            },
+            "install_date": {
+                "name": "Date of commissioning"
+            },
+            "leakage_protection": {
+                "name": "Leakage protection"
+            }
+        }
+    },
+    "title": "Judo Water Treatment"
+}
