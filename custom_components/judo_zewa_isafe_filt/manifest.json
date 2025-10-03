@@ -4,6 +4,7 @@
   "version": "1.0.1",
   "documentation": "https://github.com/przchrz/judo_zewa_isafe_filt",
   "requirements": ["aiohttp"],
+  "config_flow": true,
   "codeowners": ["@przchrz"],
   "iot_class": "local_polling"
 }
