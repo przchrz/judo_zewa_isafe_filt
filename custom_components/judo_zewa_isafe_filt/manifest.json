@@ -1,10 +1,12 @@
 {
   "domain": "judo_zewa_isafe_filt",
   "name": "ZEWA i-SAFE Leak Protection + Filter",
-  "version": "1.0.1",
-  "documentation": "https://github.com/przchrz/judo_zewa_isafe_filt",
-  "requirements": ["aiohttp"],
-  "config_flow": true,
   "codeowners": ["@przchrz"],
-  "iot_class": "local_polling"
+  "config_flow": true,
+  "documentation": "https://github.com/przchrz/judo_zewa_isafe_filt",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/przchrz/judo_zewa_isafe_filt/issues",
+  "loggers": ["judo_zewa_isafe_filt"],
+  "requirements": [],
+  "version": "0.0.1"
 }
